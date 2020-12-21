@@ -1,0 +1,78 @@
+.App {
+  width: 640px;
+  margin: 50px auto;
+}
+
+.App h1 {
+  text-align: center;
+  padding: 10px 0;
+  font-weight: normal;
+}
+
+.rm {
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  background-color: crimson;
+  color: white;
+}
+
+span.done {
+  text-decoration: line-through;
+}
+
+.empty {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.form {
+  display: block;
+  text-align: center;
+}
+
+.form input {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid silver;
+  margin: 0 5px;
+}
+
+.form button {
+  border: 1px solid silver;
+  background-color: silver;
+  color: black;
+  border-radius: 3px;
+  padding: 5px 20px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+
+/* Loading */
+.lds-dual-ring {
+  display: block;
+  width: 80px;
+  height: 80px;
+  margin: 50px auto;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid crimson;
+  border-color: crimson transparent crimson transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
